@@ -1,7 +1,11 @@
 # DeepCopy
 # Author: Bradley J. Spaulding
 # Created On: 2010-10-25
-#
+# Updated On: 2010-12-10
+# 
+# IMPORTANT NOTE. dup and clone *ARE NOT THE SAME*. 
+# This module needs to be updated to mirror the correct behaviors of each.
+
 module BSDeepCopy
   #alias :dup_deep, :clone_deep
 	def dup_deep
